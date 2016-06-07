@@ -82,6 +82,7 @@ OVERRIDE_RS_DRIVER:= libRSDriver_adreno.so
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
 # Enable auto suspend in poweroff charging to save power
 BOARD_CHARGER_ENABLE_SUSPEND := true
+BOARD_CHARGER_IMG_PATH := device/huawei/angler/charger/images
 
 # Enable dex-preoptimization to speed up first boot sequence
 ifeq ($(HOST_OS),linux)
